@@ -347,6 +347,7 @@ public:
     case X86::NOOPQr:
     case X86::NOOPW:
     case X86::NOOPWr:
+    case X86::ENDBR64:
       return true;
     }
     return false;

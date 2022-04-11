@@ -44,6 +44,7 @@ add_llvm_library(LLVMBOLTPasses
   ValidateInternalCalls.cpp
   VeneerElimination.cpp
   RetpolineInsertion.cpp
+  RemoveEndbr.cpp
 
   LINK_LIBS
   ${LLVM_PTHREAD_LIB}
